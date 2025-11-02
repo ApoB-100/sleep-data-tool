@@ -303,7 +303,7 @@ You're ready to run the tool! 🎉
 1. **Select your account** from the dropdown menu (if you have multiple)
 
 2. **Enter a date** in YYYY-MM-DD format
-   - Example: `2024-10-30`
+   - Example: `2025-10-30`
    - Or use today's date by default
 
 3. **Click "Fetch Data"**
@@ -320,7 +320,7 @@ You're ready to run the tool! 🎉
 
 2. **Click "Export to CSV"**
    - Choose where to save the file
-   - Give it a meaningful name (e.g., `my_sleep_data_october_2024.csv`)
+   - Give it a meaningful name (e.g., `my_sleep_data_october_2025.csv`)
    - Click Save
 
 3. **Open with Excel or Google Sheets** to analyze your sleep patterns!
