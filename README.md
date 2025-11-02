@@ -6,6 +6,35 @@ A modern, secure desktop application for fetching and exporting your sleep data 
 ![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)
 
+## ✨ Features
+
+- **🎨 Modern GUI** - Beautiful interface built with ttkbootstrap
+- **🔐 Secure Authentication** - OAuth2 with PKCE (Proof Key for Code Exchange)
+- **🔑 Encrypted Storage** - Tokens stored securely using OS keychain (Windows Credential Manager, macOS Keychain, Linux Secret Service)
+- **👥 Multi-Account Support** - Manage and fetch data from multiple Fitbit accounts
+- **📊 Sleep Data Export** - Export detailed sleep metrics to CSV format
+- **⚡ Thread-Safe Operations** - Non-blocking UI with background data fetching
+- **🔄 Auto Token Refresh** - Automatic token renewal when expired
+- **🛡️ Rate Limit Handling** - Built-in retry logic for API rate limits
+- **🎨 Theme Support** - Multiple UI themes available
+- **📱 Cross-Platform** - Works on Windows, macOS, and Linux
+
+### Sleep Metrics Tracked
+
+- **REM Sleep** - Rapid Eye Movement sleep duration
+- **Light Sleep** - Light sleep duration
+- **Deep Sleep** - Deep sleep duration
+- **SOL** - Sleep Onset Latency (time to fall asleep)
+- **Minutes Awake** - Total time awake during sleep period (as provided by the API)
+- **WASO** - Wake After Sleep Onset (calculated)
+- **TIB** - Time In Bed
+- **Sleep Type** - Type of sleep record (auto-detected, manual, etc.)
+- **Source** - Data source information
+
+<p align="center">
+  <img src="main-application.png" alt="Sleep Data Tool Main Application" width="800">
+</p>
+
 ## ⚠️ Important Legal Notices
 
 ### Trademark Disclaimer
@@ -41,31 +70,6 @@ A modern, secure desktop application for fetching and exporting your sleep data 
 - [Contributing](#-contributing)
 - [License](#-license)
 - [Acknowledgments](#-acknowledgments)
-
-## ✨ Features
-
-- **🎨 Modern GUI** - Beautiful interface built with ttkbootstrap
-- **🔐 Secure Authentication** - OAuth2 with PKCE (Proof Key for Code Exchange)
-- **🔑 Encrypted Storage** - Tokens stored securely using OS keychain (Windows Credential Manager, macOS Keychain, Linux Secret Service)
-- **👥 Multi-Account Support** - Manage and fetch data from multiple Fitbit accounts
-- **📊 Sleep Data Export** - Export detailed sleep metrics to CSV format
-- **⚡ Thread-Safe Operations** - Non-blocking UI with background data fetching
-- **🔄 Auto Token Refresh** - Automatic token renewal when expired
-- **🛡️ Rate Limit Handling** - Built-in retry logic for API rate limits
-- **🎨 Theme Support** - Multiple UI themes available
-- **📱 Cross-Platform** - Works on Windows, macOS, and Linux
-
-### Sleep Metrics Tracked
-
-- **REM Sleep** - Rapid Eye Movement sleep duration
-- **Light Sleep** - Light sleep duration
-- **Deep Sleep** - Deep sleep duration
-- **SOL** - Sleep Onset Latency (time to fall asleep)
-- **Minutes Awake** - Total time awake during sleep period
-- **WASO** - Wake After Sleep Onset
-- **TIB** - Time In Bed
-- **Sleep Type** - Type of sleep record (auto-detected, manual, etc.)
-- **Source** - Data source information
 
 ## 📦 Prerequisites
 
