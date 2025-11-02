@@ -1,6 +1,6 @@
 # 🌙 Sleep Data Tool
 
-A modern, secure desktop application for fetching and exporting your sleep data with a graphical user interface.
+A secure desktop application for fetching and exporting your sleep data with a graphical user interface.
 
 ![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL%203.0-blue.svg)
 ![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)
