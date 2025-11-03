@@ -776,7 +776,7 @@ class FitbitApp:
         # Title
         title_label = ttk.Label(
             header_frame,
-            text="🌙 Fitbit Sleep Data Tool",
+            text="🌙 Sleep Data Tool",
             font=("Helvetica", 20, "bold"),
             bootstyle="inverse-primary"
         )
