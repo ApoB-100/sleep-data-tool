@@ -734,12 +734,12 @@ class FitbitApp:
 
     def __init__(self, master: ttk.Window):
         self.master = master
-        master.title("🌙 Fitbit Sleep Data Tool")
+        master.title("🌙 Sleep Data Tool")
         master.geometry("1000x750")
         
         # Set app icon if available
         try:
-            master.iconbitmap("fitbit_icon.ico")
+            master.iconbitmap("icon.ico")
         except:
             pass
         
